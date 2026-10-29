@@ -87,7 +87,9 @@ export default function RootLayout({
                 Towards FAIR AI: A Survey of Regional Trends and Knowledge Graph-Enhanced Bias Mitigation
               </span>
             </p>
+            {/* Withheld during anonymous review:
             <p className="text-gray-400 text-sm mt-1">Abhash Shrestha · Tek Raj Chhetri · Sanju Tiwari</p>
+            */}
             <div className="mt-5 pt-5 border-t border-gray-800 flex items-center justify-center gap-4 text-xs text-gray-500">
               <span>&copy; {new Date().getFullYear()}</span>
               <a href="https://cair-nepal.org" className="text-gray-400 hover:text-white transition-colors underline" target="_blank" rel="noopener noreferrer">cair-nepal.org</a>
