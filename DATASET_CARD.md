@@ -29,9 +29,10 @@ open-access data; abstracts for these six records were curated manually
 rather than retrieved from OpenAlex. The dataset is provided in CSV format.
 
 This dataset is the underlying corpus for an interactive atlas of AI bias
-research, available at **https://biasatlas.cair-nepal.org**, and for the
-accompanying paper *"Whose fairness? Structural concentration in AI bias
-research"* (under review).
+research and the accompanying paper *"Whose fairness? Structural
+concentration in AI bias research"* (under double-blind review).
+<!-- Live atlas link withheld during anonymous review:
+available at **https://biasatlas.cair-nepal.org**. -->
 
 ## Dataset Structure
 
@@ -148,6 +149,11 @@ full-text content, but you should verify this is what you want.)*
 
 ### Citation Information
 
+Citation details (paper and dataset BibTeX) are withheld during anonymous
+review to avoid revealing author identity.
+
+<!-- Restore after acceptance:
+
 If citing the paper:
 
 ```bibtex
@@ -172,15 +178,25 @@ citable independently of the paper):
   url     = {https://doi.org/10.5281/zenodo.21221283}
 }
 ```
+-->
 
 ### Links
 
+Links withheld during anonymous review (dashboard, code repository, and
+Hugging Face dataset URLs all identify the authors' institution).
+
+<!-- Restore after acceptance:
 - Interactive atlas / dashboard: https://biasatlas.cair-nepal.org
 - Code repository: https://github.com/CAIRNepal/biasatlas
 - Hugging Face dataset: https://huggingface.co/datasets/cair-nepal/ai-bias-research-landscape
 - Archived dataset (Zenodo, versioned DOI): https://doi.org/10.5281/zenodo.21221283
+-->
 
 ### Dataset Curators
 
+Withheld during anonymous review.
+
+<!-- Restore after acceptance:
 Abhash Shrestha, Subigya Gautam, Anu Sapkota, Sanju Tiwari, Tek Raj Chhetri
 — Center for Artificial Intelligence (AI) Research Nepal.
+-->

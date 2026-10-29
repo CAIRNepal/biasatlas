@@ -1,6 +1,6 @@
 # 🧠 BiasAtlas — an interactive atlas of AI bias research
 
-**Live atlas:** [https://biasatlas.cair-nepal.org](https://biasatlas.cair-nepal.org).&nbsp; **Companion paper:** *Whose fairness? Structural concentration in AI bias research*
+**Companion paper:** *Whose fairness? Structural concentration in AI bias research* (under double-blind review). Author and affiliation details, and the live-atlas link, are withheld from this copy for anonymous review.
 
 BiasAtlas is an interactive, continuously updatable map of the AI bias research
 landscape. It lets anyone explore who produces research on AI bias, where, in
@@ -8,11 +8,6 @@ collaboration with whom, and on which themes — and to track how that structure
 shifts over time. The atlas accompanies our study of 692 publications
 (2012–2026) and turns a static bibliometric snapshot into a living resource the
 community can browse, query, and contribute to.
-
-This work is part of [_**Bridging Minds and Machines: Human Perspectives and Responsible AI for an Inclusive Future**_](https://www.cair-nepal.org/research/projects/bridging-minds-and-machines-human-perspectives-and-responsible-ai-for-an-inclusive-future/) project.
-
-**Authors**: Abhash Shrestha, Subigya Gautam, Anu Sapkota, Sanju Tiwari and Tek Raj Chhetri
-
 
 ---
 
@@ -35,45 +30,10 @@ This work is part of [_**Bridging Minds and Machines: Human Perspectives and Res
 - **Continuously growing corpus** — new publications are added over time to
   keep the atlas current (see [Contributing](#contributing) to nominate one).
 
-
-
-
-## 📄 Citation
-
-If you use BiasAtlas or the underlying corpus, please cite the paper:
-
-```bibtex
-@misc{shrestha2026fairnessstructuralconcentrationai,
-      title={Whose fairness? Structural concentration in AI bias research}, 
-      author={Abhash Shrestha and Subigya Gautam and Anu Sapkota and Sanju Tiwari and Tek Raj Chhetri},
-      year={2026},
-      eprint={2607.05574},
-      archivePrefix={arXiv},
-      primaryClass={cs.CY},
-      url={https://arxiv.org/abs/2607.05574}, 
-}
-}
-```
-
-To cite the dataset itself (versioned, citable independently of the paper),
-use the archived Zenodo record: https://doi.org/10.5281/zenodo.21221283. The
-corpus is also available on Hugging Face:
-https://huggingface.co/datasets/cair-nepal/ai-bias-research-landscape
-
-## Authors
-
-- **Abhash Shrestha** — Center for AI Research (CAIR) Nepal *(corresponding)*
-- **Subigya Gautam** — Center for AI Research (CAIR) Nepal
-- **Anu Sapkota** — Center for AI Research (CAIR) Nepal
-- **Sanju Tiwari** — Sharda University, Delhi-NCR; Shodhguru Innovation and Research Labs
-- **Tek Raj Chhetri** — Center for AI Research (CAIR) Nepal; McGovern Institute for Brain Research, MIT *(corresponding | Supervisor)*
-
-**Contact:** abhash.shrestha@cair-nepal.org · tekraj.chhetri@cair-nepal.org
-
 ## Contributing
 
 Contributions are welcome — to nominate a publication for the corpus, open an issue with the paper's title, DOI, and thematic domain. To add papers yourself and open a PR, or to contribute code/pipeline changes, see [CONTRIBUTING.md](CONTRIBUTING.md) for the step-by-step process and common pitfalls.
 
 ## 📜 License
 
-This project is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0). 
+This project is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
