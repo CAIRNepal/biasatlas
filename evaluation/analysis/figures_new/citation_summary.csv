@@ -1,21 +1,21 @@
 metric,scope,value,notes
-n_papers,overall,692.0,
+n_papers,overall,689.0,
 median_citations,overall,9.0,
-mean_citations,overall,93.55,
-papers_with_citations_gt0,overall,558.0,
+mean_citations,overall,93.88,
+papers_with_citations_gt0,overall,555.0,
 papers_with_zero_citations,overall,134.0,
-internal_citation_edges,overall,1690.0,
-papers_cited_internally_ge1,overall,270.0,
-papers_citing_internally_ge1,overall,474.0,
-most_internally_cited_paper,overall,129.0,Fairness through awareness
-median_citations,domain: General Fairness & Bias Mitigation,13.0,n=319
-mean_citations,domain: General Fairness & Bias Mitigation,92.65,n=319
+internal_citation_edges,overall,1684.0,
+papers_cited_internally_ge1,overall,269.0,
+papers_citing_internally_ge1,overall,473.0,
+most_internally_cited_paper,overall,128.0,Fairness through awareness
+median_citations,domain: General Fairness & Bias Mitigation,13.0,n=317
+mean_citations,domain: General Fairness & Bias Mitigation,93.13,n=317
 max_citations,domain: General Fairness & Bias Mitigation,3331.0,
 median_citations,domain: Health & Clinical AI,10.0,n=115
 mean_citations,domain: Health & Clinical AI,160.0,n=115
 max_citations,domain: Health & Clinical AI,5913.0,
-median_citations,domain: LLMs & NLP,6.0,n=151
-mean_citations,domain: LLMs & NLP,86.62,n=151
+median_citations,domain: LLMs & NLP,6.0,n=150
+mean_citations,domain: LLMs & NLP,87.09,n=150
 max_citations,domain: LLMs & NLP,5297.0,
 median_citations,domain: Recommender Systems,3.0,n=69
 mean_citations,domain: Recommender Systems,31.81,n=69
@@ -33,33 +33,33 @@ internal_citations_total,domain: Health & Clinical AI,240.0,
 global_citations_total,domain: Health & Clinical AI,18400.0,
 global_to_internal_ratio,domain: Health & Clinical AI,76.7,
 internal_citations_total,domain: LLMs & NLP,261.0,
-global_citations_total,domain: LLMs & NLP,13080.0,
-global_to_internal_ratio,domain: LLMs & NLP,50.1,
-internal_citations_total,domain: General Fairness & Bias Mitigation,1052.0,
-global_citations_total,domain: General Fairness & Bias Mitigation,29555.0,
-global_to_internal_ratio,domain: General Fairness & Bias Mitigation,28.1,
+global_citations_total,domain: LLMs & NLP,13063.0,
+global_to_internal_ratio,domain: LLMs & NLP,50.0,
+internal_citations_total,domain: General Fairness & Bias Mitigation,1046.0,
+global_citations_total,domain: General Fairness & Bias Mitigation,29522.0,
+global_to_internal_ratio,domain: General Fairness & Bias Mitigation,28.2,
 median_citations,country: Canada,21.0,"n=35 (all-author, >=10 papers)"
 mean_citations,country: Canada,271.69,"n=35 (all-author, >=10 papers)"
-median_citations,country: Austria,19.0,"n=12 (all-author, >=10 papers)"
-mean_citations,country: Austria,86.33,"n=12 (all-author, >=10 papers)"
+median_citations,country: Austria,17.0,"n=11 (all-author, >=10 papers)"
+mean_citations,country: Austria,92.27,"n=11 (all-author, >=10 papers)"
 median_citations,country: Spain,17.0,"n=14 (all-author, >=10 papers)"
 mean_citations,country: Spain,25.93,"n=14 (all-author, >=10 papers)"
-median_citations,country: United Kingdom,14.0,"n=79 (all-author, >=10 papers)"
-mean_citations,country: United Kingdom,65.14,"n=79 (all-author, >=10 papers)"
-median_citations,country: USA,13.0,"n=389 (all-author, >=10 papers)"
-mean_citations,country: USA,136.32,"n=389 (all-author, >=10 papers)"
+median_citations,country: United Kingdom,14.0,"n=78 (all-author, >=10 papers)"
+mean_citations,country: United Kingdom,65.71,"n=78 (all-author, >=10 papers)"
+median_citations,country: USA,13.0,"n=387 (all-author, >=10 papers)"
+mean_citations,country: USA,136.95,"n=387 (all-author, >=10 papers)"
 median_citations,country: Switzerland,12.0,"n=19 (all-author, >=10 papers)"
 mean_citations,country: Switzerland,92.84,"n=19 (all-author, >=10 papers)"
 median_citations,country: France,8.0,"n=25 (all-author, >=10 papers)"
 mean_citations,country: France,29.52,"n=25 (all-author, >=10 papers)"
-median_citations,country: Germany,8.0,"n=60 (all-author, >=10 papers)"
-mean_citations,country: Germany,41.37,"n=60 (all-author, >=10 papers)"
-median_citations,country: Netherlands,7.0,"n=31 (all-author, >=10 papers)"
-mean_citations,country: Netherlands,22.29,"n=31 (all-author, >=10 papers)"
+median_citations,country: Germany,7.5,"n=58 (all-author, >=10 papers)"
+mean_citations,country: Germany,42.22,"n=58 (all-author, >=10 papers)"
+median_citations,country: Netherlands,7.0,"n=30 (all-author, >=10 papers)"
+mean_citations,country: Netherlands,22.33,"n=30 (all-author, >=10 papers)"
 median_citations,country: Denmark,5.5,"n=10 (all-author, >=10 papers)"
 mean_citations,country: Denmark,38.2,"n=10 (all-author, >=10 papers)"
-median_citations,country: Italy,4.0,"n=27 (all-author, >=10 papers)"
-mean_citations,country: Italy,24.07,"n=27 (all-author, >=10 papers)"
+median_citations,country: Italy,4.0,"n=26 (all-author, >=10 papers)"
+mean_citations,country: Italy,24.19,"n=26 (all-author, >=10 papers)"
 median_citations,country: Australia,3.0,"n=20 (all-author, >=10 papers)"
 mean_citations,country: Australia,46.8,"n=20 (all-author, >=10 papers)"
 median_citations,country: China,2.0,"n=60 (all-author, >=10 papers)"

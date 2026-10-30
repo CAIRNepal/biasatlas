@@ -1,28 +1,28 @@
 Country,Authors,Papers
-USA,1145,389
-UK,183,79
+USA,1145,387
+UK,182,78
 China,241,60
-Germany,148,60
+Germany,141,58
 Canada,70,35
-Netherlands,61,31
-Italy,52,27
+Netherlands,60,30
+Italy,51,26
 India,64,25
 France,43,25
 Australia,47,20
 Switzerland,34,19
 Spain,31,14
-Austria,23,12
+Austria,21,11
 Denmark,25,10
 Japan,34,9
 Singapore,28,9
 Sweden,27,9
 Hong Kong,20,9
-Belgium,13,9
 Ireland,13,9
+Belgium,12,8
 South Korea,20,7
 Israel,14,7
-Greece,16,6
 Brazil,14,5
+Greece,12,5
 United Arab Emirates,6,5
 Taiwan,15,4
 New Zealand,12,4
@@ -54,7 +54,6 @@ Peru,2,1
 Ukraine,2,1
 Argentina,1,1
 Botswana,1,1
-Chile,1,1
 Colombia,1,1
 El Salvador,1,1
 Ghana,1,1

@@ -85,12 +85,11 @@ def main():
     from statistics import median
     from matplotlib.ticker import StrMethodFormatter
 
-    source = ROOT / 'source_data' / 'biasatlas'
     def read_csv(path):
         with path.open(encoding='utf-8-sig', newline='') as f:
             return list(csv.DictReader(f))
-    corpus = read_csv(source / 'evaluation/analysis/papers_new.csv')
-    enriched = read_csv(source / 'openalex_enriched.csv')
+    corpus = read_csv(ROOT / 'papers_new.csv')
+    enriched = read_csv(ROOT.parent.parent / 'openalex_enriched.csv')
     by_id = {row['SN']: row for row in corpus}
     assert len(by_id) == len(corpus)
     assert len({row['SN'] for row in enriched}) == len(enriched)
@@ -144,7 +143,7 @@ def main():
                 transform=ax.transAxes, fontsize=11, color='#444444')
 
     fig.text(.025, .622, '(c)  Most-cited papers', fontsize=19, weight='bold')
-    fig.text(.025, .599, 'Top 15 papers in the 692-paper corpus · Global citations via OpenAlex',
+    fig.text(.025, .599, f'Top 15 papers in the {len(records)}-paper corpus · Global citations via OpenAlex',
              fontsize=12, color='#444444')
     ax_papers = fig.add_axes([.57, .105, .395, .465])
     values = [row['citations'] for row in top]
