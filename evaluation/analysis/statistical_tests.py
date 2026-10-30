@@ -3,6 +3,7 @@ import numpy as np
 from scipy import stats
 from scikit_posthocs import posthoc_dunn
 from pathlib import Path
+from institution_canon import canonicalize_org
 
 BASE_DIR = Path(__file__).resolve().parent
 ENRICHED = BASE_DIR.parent.parent / 'openalex_enriched.csv'
@@ -126,12 +127,13 @@ gini_ci_lo = np.percentile(_gini_boot, 2.5)
 gini_ci_hi = np.percentile(_gini_boot, 97.5)
 print(f"   Geographic Gini 95% Bootstrap CI (10,000 resamples): [{gini_ci_lo:.4f}, {gini_ci_hi:.4f}]")
 
-# Institutional Gini (from Affiliations column)
+# Institutional Gini (from Affiliations column, canonicalized via institution_canon.py
+# so counts/identities agree with the Fig 4 university heatmap scripts)
 affiliations = df['Affiliations'].dropna()
 inst_counts = {}
 for aff_str in affiliations:
     for inst in aff_str.split(';'):
-        inst = inst.strip()
+        inst = canonicalize_org(inst.strip())
         if inst:
             inst_counts[inst] = inst_counts.get(inst, 0) + 1
 
@@ -147,7 +149,7 @@ else:
 # Institutional Gini (first author only — first affiliation per paper)
 first_inst_counts = {}
 for aff_str in affiliations:
-    first_inst = aff_str.split(';')[0].strip()
+    first_inst = canonicalize_org(aff_str.split(';')[0].strip())
     if first_inst:
         first_inst_counts[first_inst] = first_inst_counts.get(first_inst, 0) + 1
 
